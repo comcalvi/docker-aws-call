@@ -29,4 +29,4 @@ RUN npm install
 COPY . /usr/src/app
 
 USER node
-CMD [ "npm", "start" ]
+CMD [ "npm", "make-bucket" ]
